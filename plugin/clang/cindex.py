@@ -62,6 +62,13 @@ call is efficient.
 #
 # o implement additional SourceLocation, SourceRange, and File methods.
 
+from __future__ import (
+    division,
+    absolute_import,
+    print_function,
+    unicode_literals
+)
+
 from ctypes import *
 from ctypes.util import find_library
 import collections

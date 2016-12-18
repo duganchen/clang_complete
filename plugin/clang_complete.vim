@@ -7,6 +7,13 @@
 " Help: Use :help clang_complete
 "
 
+from __future__ import (
+  division,
+  absolute_import,
+  print_function,
+  unicode_literals
+)
+
 if exists('g:clang_complete_loaded')
   finish
 endif

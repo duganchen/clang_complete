@@ -1,6 +1,13 @@
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
 
+from __future__ import (
+  division,
+  absolute_import,
+  print_function,
+  string_literals
+)
+
 import sys
 
 CONFIG_NAME = ".clang_complete"

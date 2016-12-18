@@ -1,6 +1,13 @@
 #!/usr/bin/env python2
 #-*- coding: utf-8 -*-
 
+from __future__ import (
+  division,
+  absolute_import,
+  print_function,
+  string_literals
+)
+
 import re
 import sys
 import os.path
